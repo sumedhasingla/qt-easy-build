@@ -31,7 +31,7 @@ TBD
 Windows
 -------
 
-1. Open desired Visual Studio Command Prompt
+1. Open desired Visual Studio Command Prompt. To build in 64-bit open VS20__x64 command prompt. 
 2. Paste the corresponding text from the box below and press enter.
 
 * Visual Studio 2013 64-bit Release
@@ -86,4 +86,5 @@ Windows
 
 * `buildType` can be set to either 'Release' or 'Debug'
 * `bits` can be set to either '32' or '64'
+* Make sure you use the correct version (x64 or x86) Visual Studio command prompt
 * The script will install [jom](http://qt-project.org/wiki/jom) and [StrawberryPerl](http://strawberryperl.com/) using `cinst jom` and `cinst StrawberryPerl`.
